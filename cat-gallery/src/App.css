@@ -47,6 +47,11 @@
   width: 32%;
 }
 
+.gallery-card-front a:not(:last-child):after{
+  margin-left: 15px;
+}
+
+
 
 @media only screen and (max-width: 600px) {
   .flex-grid-thirds {

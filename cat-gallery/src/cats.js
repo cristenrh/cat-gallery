@@ -3,9 +3,13 @@ export const cats = [
       image: 'cat1.jpg',
       title: 'Cat with blue eyes',
       body: 'Blue eyes ipsum dolor sit amet, consectetur adipiscing elit. Nam arcu neque, mollis sed velit et, egestas laoreet mauris. Nunc venenatis tincidunt.',
-      links: [
+       links: [
 				{
 					text: "Link One",
+					href: "#"
+        },
+        {
+					text: "Link Two",
 					href: "#"
         }
       ]
@@ -14,6 +18,7 @@ export const cats = [
       image: 'cat2.jpg',
       title: 'Cat in deep thought',
       body: 'Deep thought ipsum dolor sit amet, consectetur adipiscing elit. Nam arcu neque, mollis sed velit et, egestas laoreet mauris. Nunc venenatis tincidunt.',
+      //links: ['Link One', 'Link Two'],
       links: [
 				{
 					text: "Link One",
@@ -30,6 +35,7 @@ export const cats = [
       image: 'cat3.jpg',
       title: 'Calico cat',
       body: 'Calico ipsum dolor sit amet, consectetur adipiscing elit. Nam arcu neque, mollis sed velit et, egestas laoreet mauris. Nunc venenatis tincidunt sodales.',
+      //links: ['Link One', 'Link Two'],
       links: [
 				{
 					text: "Link One",

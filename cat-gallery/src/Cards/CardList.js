@@ -12,8 +12,9 @@ const CardList = ({ cats }) => {
                     title={cats[i].title} 
                     image={cats[i].image} 
                     body={cats[i].body}
-                    text={cats[i].links.text}
+                    links={cats[i].links}
                     href={cats[i].links.href}
+                    text={cats[i].links.text}
                 />
             );
         })
