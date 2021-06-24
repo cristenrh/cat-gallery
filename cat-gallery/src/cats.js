@@ -18,7 +18,6 @@ export const cats = [
       image: 'cat2.jpg',
       title: 'Cat in deep thought',
       body: 'Deep thought ipsum dolor sit amet, consectetur adipiscing elit. Nam arcu neque, mollis sed velit et, egestas laoreet mauris. Nunc venenatis tincidunt.',
-      //links: ['Link One', 'Link Two'],
       links: [
 				{
 					text: "Link One",

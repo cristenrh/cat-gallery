@@ -7,9 +7,9 @@ import './App.css';
 function App() {
 
   return (
-    <div className="container">
+    <section className="container">
           <CardList cats={cats} />
-      </div>
+      </section>
   );
 }
 
