@@ -17,29 +17,25 @@
   flex-direction: row;
 }
 
-.flex-grid-thirds .col {
+.cat-gallery .flex-grid-thirds .col {
   flex: 1 1 auto; /* Standard syntax */
   -webkit-flex: 1 1 auto; /* Safari */
   margin: 10px;
   width: 32%;
 }
 
-.gallery-card {
+.cat-gallery .gallery-card {
   background: transparent;
   border: 1px solid grey;
 }
 
-.gallery-card img {
+.cat-gallery .gallery-card img {
   margin-bottom: -50px;
   object-fit: cover;
   object-position: 0px -45px;
 }
 
-.gallery p {
-  font-size: 14px;
-} 
-
-.gallery-card a:not(:last-child) {
+.cat-gallery .gallery-card a:not(:last-child) {
   margin-right: 15px;
 }
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Card = ({card, links}) => {
+const Card = ({card}) => {
 
   const content = card.map((catcard) =>
     <div className="col" key={catcard.id}>

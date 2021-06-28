@@ -10,7 +10,6 @@ const CardList = ({ cats }) => {
                 <Card 
                     key={i} 
                  card = {cats[i].cards}
-                links = {cats[i].cards.links}
                 />
                 );
             })

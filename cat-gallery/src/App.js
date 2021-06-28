@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="cat-gallery container">
-      <header>{cats.map((item, i) => <h3 key={item.deck_heading}>{item.deck_heading}</h3>) }</header> 
+      <header>{cats.map((item) => <h3 key={item.deck_heading}>{item.deck_heading}</h3>) }</header> 
         <main >
         <CardList cats={cats} />
         </main>
