@@ -3,24 +3,20 @@ import Card from './Card';
 
 const CardList = ({ cats }) => {
     return(
-        <div className="flex-grid-thirds">
-            {
-            cats.map((user, i) => {
+        <div>
+             {
+            cats.map((item, i) => {
                 return (
                 <Card 
                     key={i} 
-                    title={cats[i].title} 
-                    image={cats[i].image} 
-                    body={cats[i].body}
-                    links={cats[i].links}
-                    href={cats[i].links.href}
-                    text={cats[i].links.text}
+                 card = {cats[i].cards}
+                links = {cats[i].cards.links}
                 />
-            );
-        })
-    }
-    </div>
-    );
-    }
+                );
+            })
+        }
+        </div>
+        );
+        }
 
 export default CardList;

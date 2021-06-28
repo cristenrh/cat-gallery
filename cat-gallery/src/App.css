@@ -1,19 +1,27 @@
-
-
-
-.container {
+.cat-gallery.container {
   align-items: center;
-  display: flex;
   flex-direction: row;
   justify-content: center;
   margin: auto;
   max-width: 1200px;
 }
 
- .bio {
-  max-height: 200px;
-  overflow: hidden;
-  transition: max-height .5s ease;
+.cat-gallery h3 {
+  margin-left: 10px;
+}
+
+.cat-gallery .flex-grid-thirds {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.flex-grid-thirds .col {
+  flex: 1 1 auto; /* Standard syntax */
+  -webkit-flex: 1 1 auto; /* Safari */
+  margin: 10px;
+  width: 32%;
 }
 
 .gallery-card {
@@ -31,31 +39,20 @@
   font-size: 14px;
 } 
 
-.flex-grid-thirds {
-  display: flex;
-  display: -webkit-flex;
-  justify-content: space-between;
-  flex-direction: row;
-}
-
-.flex-grid-thirds .col {
-  flex: 1 1 auto; /* Standard syntax */
-  -webkit-flex: 1 1 auto; /* Safari */
-  margin: 10px;
-  width: 32%;
-}
-
 .gallery-card a:not(:last-child) {
   margin-right: 15px;
 }
 
-
-
-@media only screen and (max-width: 600px) {
-  .flex-grid-thirds {
+@media only screen and (max-width: 768px) {
+  .cat-gallery .flex-grid-thirds {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left:  10px;
+    max-width: 660px;
   }
-  .flex-grid-thirds .col {
+
+  .cat-gallery .flex-grid-thirds .col {
     flex: 1; /* Standard syntax */
     -webkit-flex: 1; /* Safari */
     -ms-flex: 1; /* IE 10 */

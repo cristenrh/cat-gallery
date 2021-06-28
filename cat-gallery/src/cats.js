@@ -1,9 +1,12 @@
 export const cats = [
+ {
+  deck_heading: 'Deck title',
+  cards:[
     {
       image: 'cat1.jpg',
       title: 'Cat with blue eyes',
       body: 'Blue eyes ipsum dolor sit amet, consectetur adipiscing elit. Nam arcu neque, mollis sed velit et, egestas laoreet mauris. Nunc venenatis tincidunt.',
-       links: [
+      links: [
 				{
 					text: "Link One",
 					href: "#"
@@ -29,7 +32,6 @@ export const cats = [
         }
       ]
     },
-
     {
       image: 'cat3.jpg',
       title: 'Calico cat',
@@ -42,5 +44,7 @@ export const cats = [
         }
       ] 
      }
+    ]
+  }
   ]
   
